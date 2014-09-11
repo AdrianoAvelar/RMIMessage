@@ -1,4 +1,4 @@
-package com.adriano.rmi.base;
+package com.adriano.rmi.server;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

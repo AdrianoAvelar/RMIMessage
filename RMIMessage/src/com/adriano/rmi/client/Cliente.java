@@ -1,14 +1,10 @@
 package com.adriano.rmi.client;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
 import java.rmi.Naming;
-import java.rmi.NotBoundException;
-import java.rmi.RemoteException;
 
 import javax.swing.JOptionPane;
 
-import com.adriano.rmi.base.IMensageiro;
+import com.adriano.rmi.server.IMensageiro;
 
 /**
  * 

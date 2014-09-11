@@ -2,8 +2,6 @@ package com.adriano.rmi.server;
 
 import java.rmi.Naming;
 
-import com.adriano.rmi.base.IMensageiro;
-import com.adriano.rmi.base.MensageiroImpl;
 
 public class Servidor {
 	public Servidor() {

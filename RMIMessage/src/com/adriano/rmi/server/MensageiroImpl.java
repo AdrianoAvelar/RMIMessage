@@ -1,4 +1,4 @@
-package com.adriano.rmi.base;
+package com.adriano.rmi.server;
 
 /**
  * Implementa as regras da interface
@@ -7,7 +7,12 @@ package com.adriano.rmi.base;
 import java.rmi.RemoteException;
 
 public class MensageiroImpl extends RemoteException implements IMensageiro {
-	private static final long serialVersionUID = 3338526139192818203L;
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public MensageiroImpl() {
 		super();
 	}
